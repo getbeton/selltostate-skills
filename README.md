@@ -4,7 +4,7 @@
 
 Give your agent government procurement data: tenders and contract awards from official sources in more than 60 countries, in one schema. Find tenders that still accept bids, research a public buyer, see which contracts a competitor won, and set tender alerts.
 
-Data and API: [Sell to State](https://selltostate.com/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills). Every tender links to the official notice.
+Data and API: [Sell to State](https://www.selltostate.com/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills). Every tender links to the official notice.
 
 ## What is in this repo
 
@@ -68,12 +68,12 @@ export STS_API_KEY=sts_...
 
 ## Links
 
-- Countries and data depth: [selltostate.com/countries](https://selltostate.com/countries/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills)
-- MCP server: [selltostate.com/mcp](https://selltostate.com/mcp/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills)
+- Countries and data depth: [selltostate.com/countries](https://www.selltostate.com/countries/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills)
+- MCP server: [selltostate.com/mcp](https://www.selltostate.com/mcp/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills)
 - API docs: [docs.selltostate.com](https://docs.selltostate.com/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills)
-- Privacy: [selltostate.com/privacy](https://selltostate.com/privacy/) · Terms: [selltostate.com/terms](https://selltostate.com/terms/)
+- Privacy: [selltostate.com/privacy](https://www.selltostate.com/privacy/) · Terms: [selltostate.com/terms](https://www.selltostate.com/terms/)
 - Support: support@selltostate.com
 
 ## License
 
-MIT. The data is subject to the [Sell to State terms](https://selltostate.com/terms/) and the terms of each official source.
+MIT. The data is subject to the [Sell to State terms](https://www.selltostate.com/terms/) and the terms of each official source.

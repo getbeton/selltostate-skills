@@ -7,9 +7,9 @@
   "author": {
     "name": "Sell to State",
     "email": "support@selltostate.com",
-    "url": "https://selltostate.com"
+    "url": "https://www.selltostate.com"
   },
-  "homepage": "https://selltostate.com/mcp/",
+  "homepage": "https://www.selltostate.com/mcp/",
   "repository": "https://github.com/getbeton/selltostate-skills",
   "license": "MIT",
   "keywords": [
@@ -25,6 +25,6 @@
   "icon": "./assets/icon.png",
   "documentationUrl": "https://docs.selltostate.com/",
   "supportUrl": "https://docs.selltostate.com/",
-  "privacyPolicyUrl": "https://selltostate.com/privacy/",
-  "termsOfServiceUrl": "https://selltostate.com/terms/"
+  "privacyPolicyUrl": "https://www.selltostate.com/privacy/",
+  "termsOfServiceUrl": "https://www.selltostate.com/terms/"
 }
