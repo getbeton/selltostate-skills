@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "selltostate": {
+      "type": "http",
+      "url": "https://app.selltostate.com/api/mcp"
+    }
+  }
+}

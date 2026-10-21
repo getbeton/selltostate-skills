@@ -1,0 +1,16 @@
+{
+  "name": "sell-to-state",
+  "description": "Sell to State: government tender and contract-award skills and MCP for AI agents.",
+  "owner": {
+    "name": "Sell to State",
+    "email": "support@selltostate.com",
+    "url": "https://selltostate.com"
+  },
+  "plugins": [
+    {
+      "name": "sell-to-state",
+      "source": ".",
+      "description": "Government tenders and contract awards from official procurement sources in more than 60 countries. Find open tenders, research public buyers, track competitor contract wins and set tender alerts."
+    }
+  ]
+}

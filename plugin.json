@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sell-to-state",
+  "version": "0.1.0",
+  "description": "Government tenders and contract awards from official procurement sources in more than 60 countries. Find open tenders, research public buyers, track competitor contract wins and set tender alerts.",
+  "author": {
+    "name": "Sell to State",
+    "email": "support@selltostate.com",
+    "url": "https://selltostate.com"
+  },
+  "homepage": "https://selltostate.com/mcp/",
+  "repository": "https://github.com/getbeton/selltostate-skills",
+  "license": "MIT",
+  "keywords": [
+    "government-contracts",
+    "tenders",
+    "public-procurement",
+    "rfp",
+    "govcon",
+    "public-sector",
+    "sales-intelligence",
+    "mcp"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "sell-to-state",
+  "displayName": "Sell to State",
+  "version": "0.1.0",
+  "description": "Government tenders and contract awards from official procurement sources in more than 60 countries. Find open tenders, research public buyers, track competitor contract wins and set tender alerts.",
+  "author": {
+    "name": "Sell to State",
+    "email": "support@selltostate.com",
+    "url": "https://selltostate.com"
+  },
+  "homepage": "https://selltostate.com/mcp/",
+  "repository": "https://github.com/getbeton/selltostate-skills",
+  "license": "MIT",
+  "keywords": [
+    "government-contracts",
+    "tenders",
+    "public-procurement",
+    "rfp",
+    "govcon",
+    "public-sector",
+    "sales-intelligence",
+    "mcp"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://docs.selltostate.com/",
+  "supportUrl": "https://docs.selltostate.com/",
+  "privacyPolicyUrl": "https://selltostate.com/privacy/",
+  "termsOfServiceUrl": "https://selltostate.com/terms/"
+}
