@@ -10,7 +10,7 @@ Data and API: [Sell to State](https://www.selltostate.com/?utm_source=github&utm
 
 | Part | File | Used by |
 |---|---|---|
-| 5 skills | `skills/*/SKILL.md` | Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenClaw, Hermes and other agents that read SKILL.md |
+| 6 skills | `skills/*/SKILL.md` | Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenClaw, Hermes and other agents that read SKILL.md |
 | Remote MCP server | `.mcp.json`, `mcp.json`, `gemini-extension.json` | The same agents, plus Claude.ai and ChatGPT |
 | Plugin manifests | `.claude-plugin/`, `plugin.json` | Claude Code plugin and marketplace, the Agent Plugins format (ChatGPT, Codex, Cursor) |
 
@@ -18,6 +18,7 @@ Data and API: [Sell to State](https://www.selltostate.com/?utm_source=github&utm
 
 | Skill | Use it to |
 |---|---|
+| `selltostate` | Start here: sign up and pay through the agent, then search, saved searches and alerts, CSV export, who wins |
 | `find-open-tenders` | Find tenders that accept bids, by keyword and country, with deadline and official link |
 | `research-public-buyer` | Profile a ministry, council, hospital or university: spend, sectors, top suppliers, open tenders |
 | `competitor-government-wins` | See the public contracts a company won, or which companies win contracts for a subject |
