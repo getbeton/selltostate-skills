@@ -10,7 +10,7 @@ Data and API: [Sell to State](https://www.selltostate.com/?utm_source=github&utm
 
 | Part | File | Used by |
 |---|---|---|
-| 5 skills | `skills/*/SKILL.md` | Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenClaw, Hermes and other agents that read SKILL.md |
+| 20 skills | `skills/*/SKILL.md` | Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenClaw, Hermes and other agents that read SKILL.md |
 | Remote MCP server | `.mcp.json`, `mcp.json`, `gemini-extension.json` | The same agents, plus Claude.ai and ChatGPT |
 | Plugin manifests | `.claude-plugin/`, `plugin.json` | Claude Code plugin and marketplace, the Agent Plugins format (ChatGPT, Codex, Cursor) |
 
@@ -23,6 +23,28 @@ Data and API: [Sell to State](https://www.selltostate.com/?utm_source=github&utm
 | `competitor-government-wins` | See the public contracts a company won, or which companies win contracts for a subject |
 | `tender-alerts` | Save a search and get new matches by email, webhook, Google Sheets or a polling job |
 | `sell-to-state-api` | Reference for the REST API and the MCP tools: auth, filters, errors, limits |
+
+### Feature skills
+
+One skill per feature of Sell to State: one task, with the MCP tools and REST calls for it. All features: [selltostate.com/features](https://www.selltostate.com/features/?utm_source=github&utm_medium=referral&utm_campaign=sts-skills).
+
+| Skill | Task |
+|---|---|
+| `selltostate-agency-tech-stack` | Agency technology profile (in development: fallback steps) |
+| `selltostate-ai-agent-tender-search` | AI agents: Claude, ChatGPT and MCP |
+| `selltostate-competitor-tracking` | Competitor contract wins |
+| `selltostate-contract-award-data` | Contract awards: who won, at what price |
+| `selltostate-contract-renewal-forecast` | Contract renewal forecast (in development: fallback steps) |
+| `selltostate-document-tender-matching` | Tender matches from your documents (in development: fallback steps) |
+| `selltostate-export-tenders-csv` | CSV export |
+| `selltostate-government-contracts-database` | Buyers, suppliers and awards database |
+| `selltostate-saved-search-alerts` | Saved searches and email alerts |
+| `selltostate-search-government-contracts` | Search tenders in 60+ countries |
+| `selltostate-tender-automation` | Automation with n8n and Activepieces |
+| `selltostate-tender-data-api` | REST API |
+| `selltostate-tender-eligibility-check` | Eligibility check for each tender (in development: fallback steps) |
+| `selltostate-tenders-in-english` | Search in English, match local languages |
+| `selltostate-website-to-tenders` | Tender matches from your website |
 
 ## Install
 
