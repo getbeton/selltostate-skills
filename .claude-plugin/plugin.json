@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "sell-to-state",
   "displayName": "Sell to State",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Government tenders and contract awards from official procurement sources in more than 60 countries. Find open tenders, research public buyers, track competitor contract wins and set tender alerts.",
   "author": {
     "name": "Sell to State",

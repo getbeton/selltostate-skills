@@ -7,9 +7,9 @@ description: AI agents: Claude, ChatGPT and MCP with Sell to State data (governm
 
 ## Access
 
-1. MCP: the server https://app.selltostate.com/api/mcp (OAuth). Call `whoami`; `active` must be true.
+1. MCP: the server https://app.selltostate.com/api/mcp (OAuth, or the x-api-key of the agent sign-in: POST https://app.selltostate.com/api/v1/agent/signup, the user approves one code). Call `whoami`. `onboarding_required`: a new account; ask the user its questions and call `submit_onboarding` first. `active` false is a free account: `plan_search` and `search` only, 1-2 searches a day.
 2. REST: https://app.selltostate.com/api/v1 with the header `x-api-key`. Read the key from `STS_API_KEY` and never print it.
-3. No plan yet: the user creates an account and picks a plan at https://app.selltostate.com/plans. The user pays in the browser.
+3. No plan yet: the user picks a plan at https://app.selltostate.com/plans, or you run the agent signup in "Get access" of https://www.selltostate.com/skills/selltostate/SKILL.md. The user pays in the browser.
 
 ## Task
 
@@ -19,8 +19,8 @@ Ask the user for each value in <angle brackets> before the first call.
 
 ## Steps
 
-1. Connect the MCP server https://app.selltostate.com/api/mcp (OAuth). The user signs in and picks a plan in the browser.
-2. Call `whoami`. If `active` is false, show the message and the link, then stop.
+1. Connect the MCP server https://app.selltostate.com/api/mcp. No key yet: POST https://app.selltostate.com/api/v1/agent/signup, give the user verification_uri_complete (one approval click, free account), then poll token_endpoint for the x-api-key. An app without HTTP requests adds the server with OAuth.
+2. Call `whoami`. If it has `onboarding_required`, ask the user its questions, show the answers and get a yes, then call `submit_onboarding`: it returns the first search. If `active` is false, the account is free: `plan_search` and `search` work for 1-2 searches a day. For more, give the user `checkout_url` from the reply.
 3. Open tenders: `search` with `scope=tenders`, `q`, `country`, `accepts_bids=true`. Awards: `search_awards` with `country` and `q`.
 4. Who won: `search` with `scope=suppliers`, then `get_supplier_detail`. Buyers: `search` with `scope=buyers`, then `get_buyer`.
 5. Save the search with `save_search`. The user turns on its email alert at https://app.selltostate.com/alerts.
