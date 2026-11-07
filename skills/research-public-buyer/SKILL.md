@@ -8,6 +8,7 @@ description: Profile a government buyer (a ministry, agency, council, hospital t
 ## Before you start
 
 - Use the Sell to State MCP tools if they are connected (`search`, `get_buyer`, `search_awards`). If not, call the REST API with `STS_API_KEY` (see the `sell-to-state-api` skill).
+- With MCP, call `whoami` first. If it has `onboarding_required` (a new account), ask the user its questions, show the answers and get a yes, then call `submit_onboarding`. Until then the other MCP tools return `onboarding_required`.
 - Every data call needs an active Sell to State plan. On a 402, show the user the message and the link, then stop.
 
 ## Steps

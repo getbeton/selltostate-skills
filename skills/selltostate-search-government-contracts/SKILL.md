@@ -1,15 +1,15 @@
 ---
 name: selltostate-search-government-contracts
-description: Search tenders in 60+ countries with Sell to State data (government tenders and contract awards from official procurement sources). Use when the user asks for open government tenders, RFPs or bids for a product or service in one or more countries.
+description: Search tenders in 70+ countries with Sell to State data (government tenders and contract awards from official procurement sources). Use when the user asks for open government tenders, RFPs or bids for a product or service in one or more countries.
 ---
 
-# Search tenders in 60+ countries (Sell to State)
+# Search tenders in 70+ countries (Sell to State)
 
 ## Access
 
-1. MCP: the server https://app.selltostate.com/api/mcp (OAuth). Call `whoami`; `active` must be true.
+1. MCP: the server https://app.selltostate.com/api/mcp (OAuth, or the x-api-key of the agent sign-in: POST https://app.selltostate.com/api/v1/agent/signup, the user approves one code). Call `whoami`. `onboarding_required`: a new account; ask the user its questions and call `submit_onboarding` first. `active` false is a free account: `plan_search` and `search` only, 1-2 searches a day.
 2. REST: https://app.selltostate.com/api/v1 with the header `x-api-key`. Read the key from `STS_API_KEY` and never print it.
-3. No plan yet: the user creates an account and picks a plan at https://app.selltostate.com/plans. The user pays in the browser.
+3. No plan yet: the user picks a plan at https://app.selltostate.com/plans, or you run the agent signup in "Get access" of https://www.selltostate.com/skills/selltostate/SKILL.md. The user pays in the browser.
 
 ## Task
 

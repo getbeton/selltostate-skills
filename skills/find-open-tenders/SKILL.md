@@ -8,6 +8,7 @@ description: Find government tenders that still accept bids, by keyword and coun
 ## Before you start
 
 - If the Sell to State MCP tools are connected, use the `search` tool. If not, call the REST API with the key in `STS_API_KEY`. The `sell-to-state-api` skill has the details.
+- With MCP, call `whoami` first. If it has `onboarding_required` (a new account), ask the user its questions, show the answers and get a yes, then call `submit_onboarding`. Until then the other MCP tools return `onboarding_required`.
 - Every data call needs an active Sell to State plan. If a call returns 402, show the user the message and the link in it, then stop.
 
 ## Steps

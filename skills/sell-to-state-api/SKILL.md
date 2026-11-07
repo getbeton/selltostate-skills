@@ -13,6 +13,7 @@ Sell to State holds government tenders and contract awards from official procure
 - REST auth: header `x-api-key: <key>`. The user creates a key at https://app.selltostate.com/account/keys. Read it from `STS_API_KEY`. Never print it.
 - MCP: `https://app.selltostate.com/api/mcp` (streamable HTTP). OAuth with dynamic client registration; MCP clients find it through `/.well-known/oauth-protected-resource`.
 - Data needs an active plan. A call without one returns 402 with `payment_link`.
+- MCP, a new account: `whoami` has `onboarding_required` with the questions. Ask the user, confirm the answers, then call `submit_onboarding`. It returns the first search. Until then the other MCP tools return `onboarding_required`.
 - Docs and OpenAPI: https://docs.selltostate.com and `https://app.selltostate.com/api/openapi.json`
 
 ## Endpoints
@@ -26,6 +27,7 @@ Sell to State holds government tenders and contract awards from official procure
 | Supplier profile | `GET /api/v1/suppliers/{slug}?country=` | `get_supplier_detail` |
 | Sectors | `GET /api/v1/sectors`, `/sectors/{slug}` | `list_sectors`, `get_sector` |
 | Account and plan | `GET /api/v1/whoami` | `whoami` |
+| Onboarding form of a new account (MCP only) | - | `submit_onboarding`, `get_onboarding_search` |
 | Saved searches | `/api/v1/saved-searches` | `save_search`, `get_saved_searches` |
 | Lists | `/api/v1/lists` | `create_list`, `add_to_list`, `get_list` |
 
