@@ -5,7 +5,7 @@ description: Reference for the Sell to State government procurement API and MCP 
 
 # Sell to State API
 
-Sell to State holds government tenders and contract awards from official procurement sources in more than 60 countries, in one schema. Every tender row links to the official notice.
+Sell to State holds government tenders and contract awards from official procurement sources in 70+ countries, in one schema. Every tender row links to the official notice.
 
 ## Access
 

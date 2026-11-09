@@ -1,6 +1,6 @@
 ---
 name: find-open-tenders
-description: Find government tenders that still accept bids, by keyword and country, with the bid deadline and the link to the official notice. Use when the user asks for open tenders, RFPs, RFQs, bids, public procurement opportunities or "what can I bid on" in one or more countries. Data from Sell to State (official procurement sources in more than 60 countries).
+description: Find government tenders that still accept bids, by keyword and country, with the bid deadline and the link to the official notice. Use when the user asks for open tenders, RFPs, RFQs, bids, public procurement opportunities or "what can I bid on" in one or more countries. Data from Sell to State (official procurement sources in 70+ countries).
 ---
 
 # Find open tenders

@@ -1,9 +1,9 @@
 ---
 name: selltostate-search-government-contracts
-description: Search tenders in 60+ countries with Sell to State data (government tenders and contract awards from official procurement sources). Use when the user asks for open government tenders, RFPs or bids for a product or service in one or more countries.
+description: Search tenders in 70+ countries with Sell to State data (government tenders and contract awards from official procurement sources). Use when the user asks for open government tenders, RFPs or bids for a product or service in one or more countries.
 ---
 
-# Search tenders in 60+ countries (Sell to State)
+# Search tenders in 70+ countries (Sell to State)
 
 ## Access
 
